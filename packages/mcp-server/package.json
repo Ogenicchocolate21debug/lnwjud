@@ -25,7 +25,7 @@
     "zod": "4.2.0"
   },
   "devDependencies": {
-    "@modelcontextprotocol/client": "2.0.0"
+    "@modelcontextprotocol/client": "2.2.0"
   },
   "scripts": {
     "test": "corepack pnpm@10.15.0 --filter @lnwjud/domain build && corepack pnpm@10.15.0 --filter @lnwjud/capabilities build && corepack pnpm@10.15.0 --filter @lnwjud/extensions build && corepack pnpm@10.15.0 build && vitest run",
